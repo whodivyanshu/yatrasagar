@@ -39,6 +39,9 @@ const Home = () => {
         <h1 style={biorhyme.style}>
           Enlightened Journeys to Sacred <br/> Destinations Worldwide
         </h1>
+        <div className={styles.button} >
+          <button className={styles.btn} style={poppins.style}>Discover Holy Pilgrimages</button>
+        </div>
       </div>
     </div>
   );
