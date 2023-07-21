@@ -7,7 +7,7 @@ import Image2 from "./images/2.jpg";
 import Image3 from "./images/3.jpg";
 import Image4 from "./images/4.jpg";
 import Image5 from "./images/5.jpg";
-import { Splide } from '@splidejs/splide';
+import {Splide } from '@splidejs/splide';
 import '@splidejs/splide/css';
 
 import '@splidejs/splide/css/skyblue';
@@ -21,8 +21,6 @@ const Highlights = () => {
             type: 'loop',
             perPage: 5,
             focus: 'center',
-//             type  : 'fade',
-//   rewind: true,
         });
 
         splide.mount();
@@ -37,11 +35,11 @@ const Highlights = () => {
             <section className="splide" aria-label="Splide Basic HTML Example">
                 <div className="splide__track">
                     <ul className="splide__list">
-                        <li className="splide__slide slide1"><Image alt='hey' width={258} height={400} src={Image1} /></li>
-                        <li className="splide__slide slide2"><Image alt='hey' width={258} height={400} src={Image2} /></li>
-                        <li className="splide__slide slide3"><Image alt='hey' width={258} height={400} src={Image3} /></li>
-                        <li className="splide__slide slide4"><Image alt='hey' width={258} height={400} src={Image4} /></li>
-                        <li className="splide__slide slide5"><Image alt='hey' width={258} height={400} src={Image5} /></li>
+                        <li className="splide__slide slide1"><Image alt='hey' width={240} height={400} src={Image1} /></li>
+                        <li className="splide__slide slide2"><Image alt='hey' width={240} height={400} src={Image2} /></li>
+                        <li className="splide__slide slide3"><Image alt='hey' width={240} height={400} src={Image3} /></li>
+                        <li className="splide__slide slide4"><Image alt='hey' width={240} height={400} src={Image4} /></li>
+                        <li className="splide__slide slide5"><Image alt='hey' width={240} height={400} src={Image5} /></li>
                     </ul>
                 </div>
             </section>

@@ -11,3 +11,6 @@ a{
 .splide__slide img{
   border-radius: 500px 500px 0px 0px;
 }
+.splide__slide{
+  padding: 0px 5px;
+}

@@ -1,7 +1,8 @@
 
 .container{
     height: 100vh;
-    width: 100%;
+    width: 98vw;
+    margin: auto;
 }
 .text{
     display: flex;
