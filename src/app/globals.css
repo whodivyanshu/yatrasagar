@@ -7,3 +7,8 @@ a{
   color: black;
   font-weight: bold;
 }
+
+
+.splide__slide{
+  margin: 0px 5px;
+}

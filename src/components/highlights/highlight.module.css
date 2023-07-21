@@ -1,8 +1,8 @@
 
-/* .container{
-    height: 100%;
+.container{
+    height: 100vh;
     width: 100%;
-} */
+}
 .text{
     display: flex;
     flex-direction: column;
