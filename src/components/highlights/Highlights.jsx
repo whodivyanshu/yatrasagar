@@ -37,11 +37,11 @@ const Highlights = () => {
             <section className="splide" aria-label="Splide Basic HTML Example">
                 <div className="splide__track">
                     <ul className="splide__list">
-                        <li className="splide__slide slide1"><Image alt='hey' width={250} height={400} src={Image1} /></li>
-                        <li className="splide__slide slide2"><Image alt='hey' width={250} height={400} src={Image2} /></li>
-                        <li className="splide__slide slide3"><Image alt='hey' width={250} height={400} src={Image3} /></li>
-                        <li className="splide__slide slide4"><Image alt='hey' width={250} height={400} src={Image4} /></li>
-                        <li className="splide__slide slide5"><Image alt='hey' width={250} height={400} src={Image5} /></li>
+                        <li className="splide__slide slide1"><Image alt='hey' width={258} height={400} src={Image1} /></li>
+                        <li className="splide__slide slide2"><Image alt='hey' width={258} height={400} src={Image2} /></li>
+                        <li className="splide__slide slide3"><Image alt='hey' width={258} height={400} src={Image3} /></li>
+                        <li className="splide__slide slide4"><Image alt='hey' width={258} height={400} src={Image4} /></li>
+                        <li className="splide__slide slide5"><Image alt='hey' width={258} height={400} src={Image5} /></li>
                     </ul>
                 </div>
             </section>
