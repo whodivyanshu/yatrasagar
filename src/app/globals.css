@@ -11,3 +11,6 @@ a{
 .splide__slide img{
   border-radius: 500px 500px 0px 0px;
 }
+body{
+  background-color: #F5F5F5;
+}

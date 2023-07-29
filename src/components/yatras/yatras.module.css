@@ -1,0 +1,56 @@
+.container{
+    /* height: 400px; */
+    /* background-color: aquamarine; */
+    padding: 10px 70px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #000;
+}
+.head button{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 40px;
+    outline: none;
+    padding: 10px 20px;
+    /* border-radius: 5px; */
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;    
+}
+.head button:hover{
+    background-color: #ababab;
+    color: #fff;
+
+}
+
+.head button img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.carousel{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    overflow: scroll;
+    
+}
+.carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .carousel {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
