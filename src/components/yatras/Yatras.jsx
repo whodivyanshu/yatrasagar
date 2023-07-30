@@ -15,13 +15,14 @@ import "node_modules/@glidejs/glide/src/assets/sass/glide.core.scss";
 import "node_modules/@glidejs/glide/src/assets/sass/glide.theme.scss";
 
 const Yatras = () => {
+    var index=0;
     useEffect(() => {
         var glide = new Glide('.glide', {
             type: 'slider',
             perView: 4,
             focusAt: 0,
             bound: true,
-            autoplay: 4000,
+            autoplay: 2000,
             hoverpause: true,
             animationTimingFunc: 'ease-out',
             breakpoints: {
@@ -39,7 +40,6 @@ const Yatras = () => {
               }
             }
           })
-          
         glide.mount()
     }, []);
 
@@ -55,7 +55,8 @@ const Yatras = () => {
             <div class="glide">
               <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
-                  <li class="glide__slide">
+                    <li class="glide__slide">
+                    <a href={'/Yatra?Index='+(index++).toString()}>
                     <div className={styles.yatraTile}>
                         <Image src={Image1} width={250} height={220}></Image>
                         <div className={styles.yatrabottom}>
@@ -81,8 +82,10 @@ const Yatras = () => {
                           </div>
                         </div>
                     </div>
+                    </a>
                   </li>
                   <li class="glide__slide">
+                    <a href={'/Yatra?Index='+(index++).toString()}>
                     <div className={styles.yatraTile}>
                         <Image src={Image1} width={250} height={220}></Image>
                         <div className={styles.yatrabottom}>
@@ -108,8 +111,10 @@ const Yatras = () => {
                           </div>
                         </div>
                     </div>
+                    </a>
                   </li>
                   <li class="glide__slide">
+                    <a href={'/Yatra?Index='+(index++).toString()}>
                     <div className={styles.yatraTile}>
                         <Image src={Image1} width={250} height={220}></Image>
                         <div className={styles.yatrabottom}>
@@ -135,8 +140,10 @@ const Yatras = () => {
                           </div>
                         </div>
                     </div>
+                    </a>
                   </li>
                   <li class="glide__slide">
+                    <a href={'/Yatra?Index='+(index++).toString()}>
                     <div className={styles.yatraTile}>
                         <Image src={Image1} width={250} height={220}></Image>
                         <div className={styles.yatrabottom}>
@@ -162,8 +169,10 @@ const Yatras = () => {
                           </div>
                         </div>
                     </div>
+                    </a>
                   </li>
                   <li class="glide__slide">
+                    <a href={'/Yatra?Index=0'}>
                     <div className={styles.yatraTile}>
                         <Image src={Image1} width={250} height={220}></Image>
                         <div className={styles.yatrabottom}>
@@ -189,8 +198,10 @@ const Yatras = () => {
                           </div>
                         </div>
                     </div>
+                    </a>
                   </li>
                   <li class="glide__slide">
+                    <a href={'/Yatra?Index=1'}>
                     <div className={styles.yatraTile}>
                         <Image src={Image1} width={250} height={220}></Image>
                         <div className={styles.yatrabottom}>
@@ -216,6 +227,7 @@ const Yatras = () => {
                           </div>
                         </div>
                     </div>
+                    </a>
                   </li>
                 </ul>
               </div>

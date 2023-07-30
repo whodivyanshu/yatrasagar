@@ -1,0 +1,12 @@
+.flexDiv{
+    display: flex;
+}
+.flexRight{
+    margin-left: auto;
+}
+.sixty{
+    width: 60%;
+}
+.forty{
+    height: 100%;
+}
