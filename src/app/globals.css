@@ -4,6 +4,8 @@
 }
 body{
   background-color: gainsboro;
+  padding: none;
+  margin: none;
 }
 a{
   text-decoration: none;

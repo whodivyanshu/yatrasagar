@@ -8,6 +8,7 @@
   background-position: inherit;
   /* background-size: 100% 100%; */
 }
+
 .navbar{
   display: flex;
   justify-content: space-between;

@@ -1,0 +1,93 @@
+.topLeft{
+    padding: 100px ;
+    padding-right: 0px;
+}
+.flexDiv{
+    display: flex;
+}
+.flexRight{
+    margin-left: auto;
+}
+.sixty{
+    width: 60%;
+}
+.forty{
+    width: 40%;
+    height: 100%;
+}
+.topImage{
+    width: 40%;
+    margin-left: auto;
+    height: 100vh;
+    background-size: cover;
+}
+#topText{
+    color: #11142D;
+    letter-spacing: 0.3%;
+    font-size: xxx-large;
+}
+
+.topLeft p{
+    color: grey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+.button{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#booking a{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+#booking{
+    background-color: white;
+    border-radius: 10px; 
+    left: 20%;
+    width: 600px;
+    top: 400px;
+    padding: 10px;
+    position: absolute;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+#bookbutton{
+    margin: 20px 0px 5px;
+}
+
+.choices{
+    background: white;
+}
+
+@media (max-width:1000px) {
+    #booking{
+        top: 500px;
+        left: 10%;
+        width: 500px;
+    }
+    .topLeft{
+        padding: 100px 10px 40px 40px ;
+    }
+}
+@media (max-width:640px) {
+    #booking{
+        top: 600px;
+        left: 5%;
+        width: 90%;
+    }
+    #topText{
+        font-size: xx-large;
+    }
+}
+@media (max-width:500px){
+    #booking{
+        display: block;
+        width: 200px;
+        margin: auto; 
+        width: 50%;
+        left: 25%;
+    }
+}
