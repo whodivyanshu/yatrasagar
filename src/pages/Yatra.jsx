@@ -24,7 +24,7 @@ const data=[[
 ],
 [
     "goldenTemple",
-    'A Soul Stirring Journey to Kedarnath',
+    'A Soul Stirring Journey to Golden Temple',
     'The Sacred River Ganga Flows Gracefully',
     'The Opening Date and Time of Kedarnath Temple',
     'Things to carry in Kedarnath Trekking Trips',
@@ -32,7 +32,7 @@ const data=[[
     'The Sacred River Ganga Flows Gracefully'
 ],[
     "shantiStupa",
-    'A Soul Stirring Journey to Kedarnath',
+    'A Soul Stirring Journey to Shanti Stupa',
     'The Sacred River Ganga Flows Gracefully',
     'The Opening Date and Time of Kedarnath Temple',
     'Things to carry in Kedarnath Trekking Trips',
@@ -40,7 +40,7 @@ const data=[[
     'The Sacred River Ganga Flows Gracefully'
 ],[
     "meenakshiTemple",
-    'A Soul Stirring Journey to Kedarnath',
+    'A Soul Stirring Journey to Meenakshi Temple',
     'The Sacred River Ganga Flows Gracefully',
     'The Opening Date and Time of Kedarnath Temple',
     'Things to carry in Kedarnath Trekking Trips',

@@ -7,6 +7,9 @@ import Image2 from "./images/2.png";
 import Image3 from "./images/3.png";
 import Image4 from "./images/4.png";
 import Image5 from "./images/5.png";
+import Image6 from "./images/goldenTemple.png";
+import Image7 from "./images/shantiStupa.png";
+import Image8 from "./images/meenakshiTemple.png";
 import Star from "./images/star.png";
 import arrow from './images/arrow-right.png';
 
@@ -18,7 +21,7 @@ const Yatras = () => {
     var index=0;
     useEffect(() => {
         var glide = new Glide('.glide', {
-            type: 'slider',
+            type: 'carousel',
             perView: 4,
             focusAt: 0,
             bound: true,
@@ -78,7 +81,7 @@ const Yatras = () => {
                           <h6>(4.1K) Customer Reviews</h6>
                           <div className={styles.flexDiv}>
                             <h3>₹2499</h3>
-                            <div className={styles.flexRight}><p className={styles.almostSold}>Almost Sold Out</p></div>
+                            <div className={styles.flexRight}><p className={styles.almostSold}>almost sold out</p></div>
                           </div>
                         </div>
                     </div>
@@ -87,12 +90,12 @@ const Yatras = () => {
                   <li class="glide__slide">
                     <a href={'/Yatra?Index='+(index++).toString()}>
                     <div className={styles.yatraTile}>
-                        <Image src={Image1} width={250} height={220}></Image>
+                        <Image src={Image6} width={250} height={220}></Image>
                         <div className={styles.yatrabottom}>
                           <div className={styles.flexDiv}>
                             <div>
-                              <h4>Kedarnath Temple</h4>
-                              <p className={styles.yatraPlace}>Uttarakhand</p>
+                              <h4>Golden Temple</h4>
+                              <p className={styles.yatraPlace}>Punjab</p>
                             </div>
                             <div className={styles.flexRight}>
                               <div className={styles.flexDiv}>
@@ -107,7 +110,7 @@ const Yatras = () => {
                           <h6>(4.1K) Customer Reviews</h6>
                           <div className={styles.flexDiv}>
                             <h3>₹2499</h3>
-                            <div className={styles.flexRight}><p className={styles.almostSold}>Almost Sold Out</p></div>
+                            <div className={styles.flexRight}><p className={styles.almostSold}>almost sold out</p></div>
                           </div>
                         </div>
                     </div>
@@ -116,12 +119,12 @@ const Yatras = () => {
                   <li class="glide__slide">
                     <a href={'/Yatra?Index='+(index++).toString()}>
                     <div className={styles.yatraTile}>
-                        <Image src={Image1} width={250} height={220}></Image>
+                        <Image src={Image7} width={250} height={220}></Image>
                         <div className={styles.yatrabottom}>
                           <div className={styles.flexDiv}>
                             <div>
-                              <h4>Kedarnath Temple</h4>
-                              <p className={styles.yatraPlace}>Uttarakhand</p>
+                              <h4>Shanti Stupa</h4>
+                              <p className={styles.yatraPlace}>Ladakh</p>
                             </div>
                             <div className={styles.flexRight}>
                               <div className={styles.flexDiv}>
@@ -136,7 +139,7 @@ const Yatras = () => {
                           <h6>(4.1K) Customer Reviews</h6>
                           <div className={styles.flexDiv}>
                             <h3>₹2499</h3>
-                            <div className={styles.flexRight}><p className={styles.almostSold}>Almost Sold Out</p></div>
+                            <div className={styles.flexRight}></div>
                           </div>
                         </div>
                     </div>
@@ -145,12 +148,12 @@ const Yatras = () => {
                   <li class="glide__slide">
                     <a href={'/Yatra?Index='+(index++).toString()}>
                     <div className={styles.yatraTile}>
-                        <Image src={Image1} width={250} height={220}></Image>
+                        <Image src={Image8} width={250} height={220}></Image>
                         <div className={styles.yatrabottom}>
                           <div className={styles.flexDiv}>
                             <div>
-                              <h4>Kedarnath Temple</h4>
-                              <p className={styles.yatraPlace}>Uttarakhand</p>
+                              <h4>Meenakshi Temple</h4>
+                              <p className={styles.yatraPlace}>Tamil Nadu</p>
                             </div>
                             <div className={styles.flexRight}>
                               <div className={styles.flexDiv}>
@@ -165,65 +168,7 @@ const Yatras = () => {
                           <h6>(4.1K) Customer Reviews</h6>
                           <div className={styles.flexDiv}>
                             <h3>₹2499</h3>
-                            <div className={styles.flexRight}><p className={styles.almostSold}>Almost Sold Out</p></div>
-                          </div>
-                        </div>
-                    </div>
-                    </a>
-                  </li>
-                  <li class="glide__slide">
-                    <a href={'/Yatra?Index=0'}>
-                    <div className={styles.yatraTile}>
-                        <Image src={Image1} width={250} height={220}></Image>
-                        <div className={styles.yatrabottom}>
-                          <div className={styles.flexDiv}>
-                            <div>
-                              <h4>Kedarnath Temple</h4>
-                              <p className={styles.yatraPlace}>Uttarakhand</p>
-                            </div>
-                            <div className={styles.flexRight}>
-                              <div className={styles.flexDiv}>
-                                <Image src={Star} width={15} height={15}></Image>
-                                <Image src={Star} width={15} height={15}></Image>
-                                <Image src={Star} width={15} height={15}></Image>
-                                <Image src={Star} width={15} height={15}></Image>
-                                <Image src={Star} width={15} height={15}></Image>
-                              </div>
-                            </div>
-                          </div>
-                          <h6>(4.1K) Customer Reviews</h6>
-                          <div className={styles.flexDiv}>
-                            <h3>₹2499</h3>
-                            <div className={styles.flexRight}><p className={styles.almostSold}>Almost Sold Out</p></div>
-                          </div>
-                        </div>
-                    </div>
-                    </a>
-                  </li>
-                  <li class="glide__slide">
-                    <a href={'/Yatra?Index=1'}>
-                    <div className={styles.yatraTile}>
-                        <Image src={Image1} width={250} height={220}></Image>
-                        <div className={styles.yatrabottom}>
-                          <div className={styles.flexDiv}>
-                            <div>
-                              <h4>Kedarnath Temple</h4>
-                              <p className={styles.yatraPlace}>Uttarakhand</p>
-                            </div>
-                            <div className={styles.flexRight}>
-                              <div className={styles.flexDiv}>
-                                <Image src={Star} width={15} height={15}></Image>
-                                <Image src={Star} width={15} height={15}></Image>
-                                <Image src={Star} width={15} height={15}></Image>
-                                <Image src={Star} width={15} height={15}></Image>
-                                <Image src={Star} width={15} height={15}></Image>
-                              </div>
-                            </div>
-                          </div>
-                          <h6>(4.1K) Customer Reviews</h6>
-                          <div className={styles.flexDiv}>
-                            <h3>₹2499</h3>
-                            <div className={styles.flexRight}><p className={styles.almostSold}>Almost Sold Out</p></div>
+                            <div className={styles.flexRight}></div>
                           </div>
                         </div>
                     </div>
