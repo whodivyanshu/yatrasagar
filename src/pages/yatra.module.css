@@ -58,6 +58,9 @@
     margin: 20px 0px 5px;
 }
 
+.choices{
+    background: white;
+}
 
 @media (max-width:1000px) {
     #booking{
@@ -65,10 +68,26 @@
         left: 10%;
         width: 500px;
     }
+    .topLeft{
+        padding: 100px 10px 40px 40px ;
+    }
 }
 @media (max-width:640px) {
     #booking{
         top: 600px;
-        width: 400px;
+        left: 5%;
+        width: 90%;
+    }
+    #topText{
+        font-size: xx-large;
+    }
+}
+@media (max-width:500px){
+    #booking{
+        display: block;
+        width: 200px;
+        margin: auto; 
+        width: 50%;
+        left: 25%;
     }
 }

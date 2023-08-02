@@ -118,10 +118,10 @@ const Yatra=()=>{
                             </Button>
                           </DropdownTrigger>
                           <DropdownMenu aria-label="Action event example" onAction={(key) => setGuest(key)}>
-                            <DropdownItem key="2 adults with children">2 adults with children</DropdownItem>
-                            <DropdownItem key="2 adults">2 adults</DropdownItem>
-                            <DropdownItem key="1 adult with children">1 adult with children</DropdownItem>
-                            <DropdownItem key="1 adult">1 adult</DropdownItem>
+                            <DropdownItem className={styles.choices} key="2 adults with children">2 adults with children</DropdownItem>
+                            <DropdownItem className={styles.choices} key="2 adults">2 adults</DropdownItem>
+                            <DropdownItem className={styles.choices} key="1 adult with children">1 adult with children</DropdownItem>
+                            <DropdownItem className={styles.choices} key="1 adult">1 adult</DropdownItem>
                           </DropdownMenu>
                         </Dropdown>
                         </div>
@@ -136,10 +136,10 @@ const Yatra=()=>{
                             </Button>
                           </DropdownTrigger>
                           <DropdownMenu aria-label="Action event example" onAction={(key) => setRoom(key)}>
-                            <DropdownItem key="platinum">platinum</DropdownItem>
-                            <DropdownItem key="gold">gold</DropdownItem>
-                            <DropdownItem key="silver">silver</DropdownItem>
-                            <DropdownItem key="bronze">bronze</DropdownItem>
+                            <DropdownItem className={styles.choices} key="platinum">platinum</DropdownItem>
+                            <DropdownItem className={styles.choices} key="gold">gold</DropdownItem>
+                            <DropdownItem className={styles.choices} key="silver">silver</DropdownItem>
+                            <DropdownItem className={styles.choices} key="bronze">bronze</DropdownItem>
                           </DropdownMenu>
                         </Dropdown>
                         </div>
@@ -154,10 +154,10 @@ const Yatra=()=>{
                             </Button>
                           </DropdownTrigger>
                           <DropdownMenu aria-label="Action event example" onAction={(key) => setDate(key)}>
-                            <DropdownItem key={getDates(1)}>{getDates(1)}</DropdownItem>
-                            <DropdownItem key={getDates(2)}>{getDates(2)}</DropdownItem>
-                            <DropdownItem key={getDates(3)}>{getDates(3)}</DropdownItem>
-                            <DropdownItem key={getDates(4)}>{getDates(4)}</DropdownItem>
+                            <DropdownItem className={styles.choices} key={getDates(1)}>{getDates(1)}</DropdownItem>
+                            <DropdownItem className={styles.choices} key={getDates(2)}>{getDates(2)}</DropdownItem>
+                            <DropdownItem className={styles.choices} key={getDates(3)}>{getDates(3)}</DropdownItem>
+                            <DropdownItem className={styles.choices} key={getDates(4)}>{getDates(4)}</DropdownItem>
                           </DropdownMenu>
                         </Dropdown>
                         </div>
